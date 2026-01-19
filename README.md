@@ -155,3 +155,7 @@ streamlit run app.py
 * Deployment to cloud 
 
 ---
+
+## ♾️ Limitations
+
+* Computational power

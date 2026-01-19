@@ -105,9 +105,6 @@ def train_and_save(model, model_name, train_loader, val_loader, epochs, device, 
 cnn_model = VGG11(num_classes=num_classes)
 cnn_model, cnn_history = train_and_save(cnn_model, "cnn", train_loader_large, val_loader_large, epochs, device, lr_cnn)
 
-# temp 
-"""
-
 # ---------------------
 # Train ResNet
 # ---------------------
@@ -173,4 +170,3 @@ torch.save({
 # Done
 # ---------------------
 print("\nAll models trained and saved. Ready for analysis!")
-"""
